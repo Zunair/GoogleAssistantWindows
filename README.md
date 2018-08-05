@@ -24,8 +24,6 @@ Was done haphazardly, in the `proto/` folder `googleapis` is added as submodule,
 
 I had to copy the `third_party\protobuf\src\google\protobuf` into `googleapis\google` for the build to work, I think this is because under linux this third_party folder would be added to `usr/local/include`
 
-This leaves a few `google.api` files missing, so I had to generate the whole of the googleapis c# gRPC code. I gave up trying to do this in Windows and used a Linux VM instead.
-
 
 ## Resources
 http://developers.google.com/assistant/sdk/
